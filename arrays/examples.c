@@ -27,7 +27,7 @@
     int main()
 {
     int i[3]={69,70,71};
-    int*j=&i[0];`
+    int*j=&i[0];
     int*k=&i[1];
     printf("%d\n",j-k);
     return 0;
